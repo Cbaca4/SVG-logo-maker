@@ -1,4 +1,4 @@
-const {Triangle, Square, Circle} = require("./shape");
+const {Triangle, Square, Circle} = require("./shape.js");
 
 // test for a triangle
 describe("Triangle test", () => {
@@ -23,7 +23,7 @@ expect(shape.render()).toEqual(
 
 //test for a circle
 describe("Circle test", () => {
-    test("test for a square with a blue background", () => {
+    test("test for a circlr with a blue background", () => {
 const shape = new Circle();
 shape.setColor("#ca00ca");
 expect(shape.render()).toEqual(

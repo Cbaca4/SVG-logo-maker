@@ -3,7 +3,7 @@ const fs = require("fs");
 const {Triangle, Square, Circle} = require("./Lib/shape");
 function writeToFile(fileName, answers) {
     let svgString = "";
-    svgString = '<svg version="1.1" width="300" height="200">';
+    svgString = '<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">';
 svgString += "<g>";
 svgString += `${answers.shape}`;
 
@@ -58,7 +58,7 @@ function promptUser() {
             console.log("must entera value of no more than 3 characters");
             promptUser();
         }else{
-            writeToFile("logo.svg", answers);
+            writeToFile("examples/logo.svg", answers);
         }
     });
 }
