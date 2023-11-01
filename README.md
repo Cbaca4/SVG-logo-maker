@@ -28,4 +28,4 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ## Live Links
 
 [github repo](https://github.com/Cbaca4/SVG-logo-maker)
-[video link]()
+[video link](https://drive.google.com/file/d/1BhQsKe65lT-rVDW15hgGnzVNtDA_EE0X/view)
